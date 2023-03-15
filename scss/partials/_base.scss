@@ -1,0 +1,27 @@
+body{
+    color: $gray;
+    font-family: $ff-s;
+    line-height: 1.6;
+    background: $white;
+}
+
+h1 {
+    color: $accent;
+    line-height: 1;
+    font-size: 3.125rem;
+
+    span {
+        color: $accent;
+        font-family: $ff-ss;
+        display: block;
+        font-size: 5.5rem;
+        letter-spacing: $letter-spacing;
+    }
+}
+
+h2 {
+    color: $dark-gray;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: $letter-spacing;
+}
