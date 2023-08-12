@@ -1114,7 +1114,7 @@
 			text-transform: uppercase;
 		}
 
-		.purplePine {
+		#banner.purplePine {
 			background-image: url("images/overlay.png"), url("../images/PurplePineLogo2.png");
 		}
 
