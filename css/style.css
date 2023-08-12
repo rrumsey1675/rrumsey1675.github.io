@@ -1114,11 +1114,42 @@
 			text-transform: uppercase;
 		}
 
-		.banner.purplePine {
-			background-image: url("images/overlay.png"), url("../images/PurplePineLogo2.png");
+	body.is-touch #banner {
+		background-attachment: scroll;
+	}
+
+/* Pine Banner */
+
+	#pinebanner {
+		padding: 16em 0 13em 0;
+		background-attachment: fixed;
+		background-image: url("images/overlay.png"), url("../images/PurplePineLogo2.png");
+		background-position: center top;
+		background-size: cover;
+		line-height: 1.75;
+		text-align: center;
+	}
+
+		#pinebanner :last-child {
+			margin-bottom: 0;
 		}
 
-	body.is-touch #banner {
+		#pinebanner h2 {
+			color: #ffffff;
+			display: inline-block;
+			font-size: 3.5em;
+			line-height: 1.35;
+			margin-bottom: 0.5em;
+		}
+
+		#pinebanner p {
+			color: #aaa;
+			font-size: 1.5em;
+			margin-bottom: 1.75em;
+			text-transform: uppercase;
+		}
+
+	body.is-touch #pinebanner {
 		background-attachment: scroll;
 	}
 
