@@ -1114,6 +1114,10 @@
 			text-transform: uppercase;
 		}
 
+		.purplePine {
+			background-image: url("images/overlay.png"), url("../images/PurplePineLogo2.png");
+		}
+
 	body.is-touch #banner {
 		background-attachment: scroll;
 	}
