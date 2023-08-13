@@ -1123,7 +1123,7 @@
 	#pinebanner {
 		padding: 16em 0 13em 0;
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("../images/PurplePineLogo2.png");
+		background-image: url("images/overlay.png"), url("../images/bannerImage.png");
 		background-position: center top;
 		background-size: cover;
 		line-height: 1.75;
