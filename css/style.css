@@ -1188,6 +1188,27 @@
 		background-attachment: scroll;
 	}
 
+	.wrapper.stylePine {
+		background-attachment: fixed;
+		background-image: url("images/overlay.png"), url("../images/bannerImage.png");
+		background-position: center center;
+		background-size: cover;
+	}
+
+		.wrapper.stylePine header.major {
+			margin-bottom: 3em;
+		}
+
+			.wrapper.stylePine header.major h2 {
+				color: #ffffff;
+			}
+
+body.is-touch .wrapper.stylePine {
+	background-attachment: scroll;
+}
+
+	
+
 /* Footer */
 
 	#footer {
